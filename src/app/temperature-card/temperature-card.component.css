@@ -1,0 +1,28 @@
+.box-y {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-bottom-const {
+    margin-bottom: 10px;
+}
+
+.font-big {
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.weather-card{
+    width: 200px;
+    height: 150px;
+}
+
+.mat-icon {
+    transform: scale(2.5);
+}
+
+.box-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+.name-card{
+    width: 200px;
+    height: 150px;
+}
+
+.box-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

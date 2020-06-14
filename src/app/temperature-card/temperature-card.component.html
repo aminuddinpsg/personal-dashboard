@@ -1,0 +1,21 @@
+<mat-card class="weather-card">
+
+    <mat-grid-list cols="2" rowHeight="1:1">
+
+      <mat-grid-tile>
+        <mat-icon >{{temperatureInfo.icon}}</mat-icon>
+      </mat-grid-tile>
+      
+      <mat-grid-tile>
+        <h3 class="font-big">{{temperatureInfo.temperature+temperatureInfo.unit}}</h3>
+      </mat-grid-tile>
+
+    </mat-grid-list>
+
+    <mat-card-content class="box-center">
+      <h1 class="mat-title">
+        {{temperatureInfo.city}}
+      </h1>
+    </mat-card-content>
+
+</mat-card>
